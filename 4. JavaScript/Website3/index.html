@@ -1,0 +1,33 @@
+ <!DOCTYPE html>
+ <html>
+<body>
+ <h1>My First Web Page</h1>
+ <p>My First Paragraph</p>
+<p id="demo"></p>
+<button onclick="rand()">Try it</button>
+
+<script>
+
+function rand(){
+    // var list = ["Hello", "Hi", "Salam", "Privet"];
+    // var content = "<ul>";
+    //
+    // for (i = 0; i < list.length; i++){
+    //     content += "<li>" + list[i] + "</li>";
+    // }
+    //
+    // content += "</ul>";
+    var text = "";
+    var i = 0;
+    while (i < 10) {
+        text += "The number is " + i + "<br />";
+        // i++;
+    }
+    document.getElementById("demo").innerHTML = text;
+}
+
+
+
+</script>
+</body>
+</html>
